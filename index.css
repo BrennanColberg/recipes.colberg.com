@@ -1,18 +1,49 @@
 :root {
+	background-color: #ddd;
+}
+
+body {
 	font-family: monospace;
 	font-size: 12pt;
+	width: 8.5in;
+	padding: 0.5in;
+	margin: auto;
+	background-color: white;
 }
 
 table {
+	margin: auto;
 	font-size: inherit;
 }
 
-td {
-	padding-left: 12px;
-	padding-right: 12px;
+td:first-child {
+	text-align: right;
+	padding-right: 8px;
+}
+
+tr.gap {
+	height: 8px;
 }
 
 em {
-	font-style: normal;
+	font-style: inherit;
 	text-decoration: underline;
+}
+
+p.attribution {
+	font-style: italic;
+	text-align: right;
+	margin-bottom: 40px;
+	font-size: 11pt;
+}
+
+hr {
+	border-width: 2px;
+	border-color: black;
+	border-style: solid;
+	margin: -8px 0;
+}
+
+nav {
+	text-align: right;
 }
